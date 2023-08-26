@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body style="background:#f2f2f2;">
+    <div class="nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <nav>
+                    <div class="nav-icon" onclick="navshow()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor"   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav-overlay" onclick="navclose()" id="nav-overlay"></div>
+                    <ul class="nav-list" id="nav-list">
+                        <div class="nav-close" onclick="navclose()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav-list-wrapper">
+                            <li>
+                                <a href="#" class="nav-link" style="text-decoration: none;">
+                                    <div class="header-logo">
+                                        <img src="images/logo.png">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link" style="text-decoration: none;">خانه</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link " style="text-decoration: none;">نمونه کار ها</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link active" style="text-decoration: none;">بلاگ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link" style="text-decoration: none;">درباره ما</a>
+                            </li>
+                            <!-- <li class="language">
+                                <div class="language-wrapper">
+                                    <div class="language-desc">
+                                        <a>
+                                            انگلیسی
+                                        </a>
+                                    </div>
+                                    <div class="language-icon">
+                                        <img src="images/united-kingdom.png">
+                                    </div>
+                                </div>
+                            </li> -->
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="other-page-hero">
+        <div class="other-page-hero-desc">
+            <h2>
+                درباره ما
+            </h2>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="blog-page" style="margin-bottom: 300px;">
+        <div class="blog-page-wrapper">
+            <div class="blog-page-left">
+                <form class="blog-page-search">
+                    <input type="text" placeholder="جستجو">
+                    <img src="images/blog-page-search.png">
+                </form>
+                <div class="blog-page-select">
+                    <div class="blog-page-select-header">
+                        <p>
+                            فهرست مطالب
+                        </p>
+                        <img src="images/up-arrow.png" class="none">
+                        <img src="images/down-arrow.png">
+                    </div>
+                    <div class="blog-page-select-items">
+                        <ul>
+                            <li>نکات جالب درباره یونیکورن های دنیا در سال 2022</li>
+                            <li>بررسی عملکرد نتفلیکس در سه ماه دوم سال 2022</li>
+                            <li>آیا روبیکا میتواند جایگزین اینستاگرام بشود؟</li>
+                            <li>20 فونت برتر و رایگان گوگل مناسب 2023</li>
+                            <li>قیمت گذاری کارهای گرافیکی</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-page-right">
+                <div class="blog-page-right-wrapper">
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-page-right-item">
+                        <div class="blog-page-item-image">
+                            <img src="images/blog-image.png">
+                        </div>
+                        <div class="blog-item-header">
+                            <h2>
+                                آیا روبیکا می‌تواند جایگزین اینستاگرام شود؟
+                            </h2>
+                        </div>
+                        <div class="blog-item-desc">
+                            <p>
+                                واتساپ یک سرویس پیام رسان رایگان است که بیش از 2 میلیارد نفر در سراسر جهان از آن استفاده می‌کنند. این شرکت در سال 2009 ...
+                            </p>
+                        </div>
+                        <div class="blog-item-footer">
+                            <div class="blog-item-footer-name">
+                                صادق زمانی
+                            </div>
+                            <div class="blog-item-footer-time">
+                                18 بهمن1401
+                            </div>
+                            <div class="blog-item-footer-link">
+                                <a href="#">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="footer">
+        <div class="footer-wrapper">
+            <div class="footer-back">
+                <div class="footer-desc-wrapper">
+                    <div class="footer-left">
+                        <p>
+                            مجوز های دریافت شده
+                        </p>
+                    </div>
+                    <div class="footer-center">
+                        <p>
+                            لینک های کاربردی
+                        </p>
+                        <a href="#">
+                            درباره ما
+                        </a>
+                        <a href="#">
+                            تماس باما
+                        </a>
+                    </div>
+                    <div class="footer-right">
+                        <div class="footer-right-up">
+                            <div class="footer-logo">
+                                <img src="images/mzcnefjn 1.png">
+                            </div>
+                            <div class="footer-logo-desc">
+                                <p>
+                                    شرکت نوآوران یکی از واحد های فناور واقع در پارک علم و فناوری قزوین می باشد.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-right-down">
+                            <div class="footer-right-item">
+                                <div class="footer-right-item-image">
+                                    <img src="images/location.png">
+                                </div>
+                                <p>
+                                    قزوین ، کیلومتر دو جاده باراجین ، بلوار شهید چگینی ، پارک علم و فناوری قزوین
+                                </p>
+                            </div>
+                            <div class="footer-right-item">
+                                <div class="footer-right-item-image">
+                                    <img src="images/location.png">
+                                </div>
+                                <p>
+                                    نهران ، بزرگراه حیکیمیه ، شتابدهنده رایمون ، طبقه اول
+                                </p>
+                            </div>
+                            <div class="footer-right-item">
+                                <div class="footer-right-item-image">
+                                    <img src="images/call.png">
+                                </div>
+                                <p>
+                                    09107502907
+                                </p>
+                            </div>
+                            <div class="footer-right-item">
+                                <div class="footer-right-item-image">
+                                    <img src="images/mail.png">
+                                </div>
+                                <p>
+                                    info@noavaraan-official.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
